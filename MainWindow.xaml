@@ -1,0 +1,18 @@
+﻿<Window x:Class="Bank.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bank"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Source="foto1.png" HorizontalAlignment="Left" Height="257" Margin="42,65,0,0" VerticalAlignment="Top" Width="197"/>
+        <Image Source="foto2.png" HorizontalAlignment="Center" Height="270" Margin="0,65,0,0" VerticalAlignment="Top" Width="198"/>
+        <Image Source="foto3.png" HorizontalAlignment="Left" Height="257" Margin="559,65,0,0" VerticalAlignment="Top" Width="254"/>
+        <Button Content="Расчитать доход" HorizontalAlignment="Center" Margin="0,367,0,0" VerticalAlignment="Top" Background="#FF2C7DE0" Foreground="White" Height="29" Width="198" FontSize="16" Click="Button_Click" FontFamily="Bahnschrift"/>
+        <Label Content="Деньги в каждый карман" HorizontalAlignment="Left" Margin="515,13,0,0" VerticalAlignment="Top" FontStyle="Italic" FontSize="16" Foreground="#FF0C0D5F" FontWeight="Bold" FontFamily="Bahnschrift"/>
+        <Image Source="ris1.png" HorizontalAlignment="Left" Height="38" Margin="732,7,0,0" VerticalAlignment="Top" Width="43"/>
+
+    </Grid>
+</Window>
